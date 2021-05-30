@@ -9,6 +9,11 @@ import lombok.Setter;
 @Setter
 public class AmountException extends Exception{
 	
+	/**
+	 * Serial
+	 */
+	private static final long serialVersionUID = -1994836139693223827L;
+	
 	private String message;
 	private String code;
 	private UUID uuid;

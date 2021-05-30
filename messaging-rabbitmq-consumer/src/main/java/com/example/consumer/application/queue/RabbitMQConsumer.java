@@ -16,7 +16,7 @@ public class RabbitMQConsumer {
 	@Autowired
 	private InvoiceService invoiceService;
 	
-	@RabbitListener(queues = "${javainuse.rabbitmq.queue}")
+	@RabbitListener(queues = "${rabbitmq.queue}")
 	public void recievedMessage(Invoice invoice) {
 		try {
 			invoiceService.processInvoice(invoice);

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.producer.application.exceptions.AmountException;
 import com.example.producer.application.service.ServiceInvoice;
-import com.example.producer.application.vo.RequestCreateInvoice;
 import com.example.producer.application.vo.Response;
 import com.example.producer.domain.model.Invoice;
 import com.example.producer.domain.model.InvoiceLine;
